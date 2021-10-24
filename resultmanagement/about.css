@@ -1,0 +1,60 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-image: linear-gradient(rgba(0, 0,0, 0.7),rgba(0, 0,0, 0.7)),url("background2.jpg");
+	background-repeat:no-repeat;
+	background-size:1550px 880px;
+}
+
+p{
+	font-size: 20px;
+	padding: 10px;
+    word-spacing: 5px;
+    line-height: 25px;
+}
+
+.val2{
+	color: white;
+	margin-top: 150px;
+	padding-left: 90px;
+}
+
+.val{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding:5px;
+}
+a:hover{
+	color:green;
+}
+
+h1{
+    color: white;
+}
+h1:hover{
+  color: green;
+  cursor: pointer;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
